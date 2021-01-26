@@ -6,10 +6,11 @@ import { MyWorksComponent } from './my-works/my-works.component';
 
 const routes: Routes = [
 
-  {path: '', component: AboutComponent,  pathMatch:"full"},
+ 
   {path: 'about', component: AboutComponent,  pathMatch:"full" },
   {path: 'myworks', component: MyWorksComponent, pathMatch:"full"},
   {path: 'contact', component: ContactComponent,  pathMatch:"full"},
+  {path: '', component: AboutComponent,  pathMatch:"full"},
 
 ];
 
