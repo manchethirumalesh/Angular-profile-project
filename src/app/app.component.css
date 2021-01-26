@@ -149,9 +149,9 @@
     margin-top: 25px;
 }
 
-.theme-set p{
-    font-size: 16px;
-    font-weight: 500;
+.theme-set h6{
+    /* font-size: 16px;
+    font-weight: 500; */
     color: #003366;
 }
 
