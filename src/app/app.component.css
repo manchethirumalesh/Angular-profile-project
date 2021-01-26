@@ -1,0 +1,201 @@
+.main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass{
+    /* width: 70%;
+    height: 90vh; */
+    width: 1000px;
+    height: 550px;
+    border-radius: 20px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.308),rgba(255, 255, 255, 0.5)); 
+    /* border-top: 1px solid  rgba(255, 255, 255, 0.404);
+    border-left: 1px solid  rgba(255, 255, 255, 0.404);
+    border-right: 1px solid  rgba(255, 255, 255, 0.404);
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.404);
+    backdrop-filter: blur(100px); */
+    /* box-shadow: 0 0 3px 1px white; */
+}
+
+.dashboard{
+    height: 550px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.404),
+    rgba(255, 255, 255, 0.5)); 
+    /* background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.308),rgba(255, 255, 255, 0.5));  */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+/* 
+.apple{
+    background-image: url(../images/443-4437542_dali-sticker-money-heist-mask-hd-png-download.png);
+} */
+
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user h6{
+    color:  #003366;
+}
+
+.user img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:15px 0 10px 0;
+    background-color: rgba(111, 153, 201, 0.2);
+}
+
+.links{
+    display: flex;
+    margin-top: 50px;
+}
+
+.links ul{
+    margin: 0;
+}
+
+.links ul li{
+    list-style: none;
+    margin-bottom: 25px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline-style: none;
+}
+
+.links ul li span{
+    margin-right: 25px;
+}
+
+/* .links ul li:hover a{
+ color: rgba(114, 152, 223, 0.486);
+} */
+
+.links ul a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #003366;
+    font-weight: 700;
+}
+
+.active{
+    background-color: rgba(114, 179, 223, 0.623);
+}
+
+.fa-user{
+    font-size: 30px;
+    margin-left: 2px;
+    color: #003366;
+}
+
+.fa-briefcase{
+    font-size: 24px;
+    color: #003366;
+}
+
+.fa-address-book-o{
+    font-size: 25px;
+    color: #003366;
+}
+
+.follow{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.follow h6{
+    color:  #003366;
+}
+
+.follow div{
+    margin-top: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .follow img{
+
+    background-color: silver;
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+} */
+/* 
+.fti .img{
+    width: 30px;
+    height: 30px;
+    background-color: #003366;
+    border-radius: 100%;
+    text-align: center
+} 
+
+.fti .img:hover{
+    cursor: pointer;
+} */
+
+.theme-set{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.theme-set p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #003366;
+}
+
+.theme{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.theme-dot{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #24292e;
+    cursor: pointer;
+}
+
+#light-mode{
+    background-color: white;
+    /* cursor: pointer; */
+}
+
+#blue-mode{
+    background-color: #204364;
+}
+
+#green-mode{
+    background-color:#78866b;
+}
+
+#purple-mode{
+    background-color: #7e4c74;
+}
+
+.theme-dot:hover{
+    border-width: 3px;
+    transform: scale(1.2);
+}
+
+.themes{
+    transform: scale(1.2);
+}
+
+.fa-book-open{
+    color: #000;
+}

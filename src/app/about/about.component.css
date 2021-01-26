@@ -1,0 +1,138 @@
+.user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+
+.user h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    color:  #003366a8;
+}
+
+.user h3{
+   margin: 0;
+   font-size: 30px;
+   font-weight: 600;
+   color:  #003366;
+}
+
+.user img{
+    width: 170px;
+    height: 170px;
+    border-radius: 30px;
+    background-color:rgba(255, 255, 255, 0.7);
+}
+
+.dev{
+    font-size: 14px;
+    text-align: end;
+}
+
+.dev p{
+    font-weight: 500;
+    color:  #003366a8;
+}
+
+.preview{
+    width: 45%;
+    border: 2px solid #17a2b8;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.404),
+    rgba(255, 255, 255, 0.5)); 
+    margin-left: 45px;
+    margin-top: 15px;
+    padding: 20px 20px 0px 20px;
+    position: relative;
+    box-shadow: 36px 37px 14px 3px rgba(247, 235, 235, 0.27);
+    -webkit-box-shadow: 36px 37px 14px 3px rgba(207,189,189,0.27);
+    -moz-box-shadow: 36px 37px 14px 3px rgba(207,189,189,0.27);
+}
+
+.preview p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    color:  #003366;
+   
+}
+
+.preview h3{
+    color:  #003366;
+}
+
+.corner{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid #17a2b8;
+    background-color: #fff;
+    position: absolute;
+}
+
+#tl{
+    top: -4px;
+    left: -4px;
+}
+
+#tr{
+    top: -4px;
+    right: -4px;
+}
+
+#bl{
+    bottom: -4px;
+    left: -4px;
+}
+
+#br{
+    bottom: -4px;
+    right: -4px;
+}
+
+.top-ex{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.top-ex p{
+    font-size: 14px;
+    font-weight: 500;
+    color:  #003366;
+}
+
+.top-ex a{
+
+    text-decoration: none;
+
+}
+
+.top-ex a:hover{
+    color: #0d6efd;
+    border-bottom: 1px solid  #0d6efd;
+}
+
+.skills-bar{
+    margin-left: 45px;
+}
+
+.skills{
+    display: flex;
+    background-color: rgba(26, 47, 61, 0.356);
+    border-radius: 15px;
+    padding: 10px 5px 5px 5px;
+    box-shadow: 0 0 5px 0.5px  rgba(64, 71, 75, 0.356);
+}
+
+.skills div{
+    margin: 0 20px;
+}
+
+.skills p{
+    font-weight: 500;
+    color: #003366;
+}
+

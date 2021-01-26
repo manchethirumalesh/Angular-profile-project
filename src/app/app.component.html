@@ -1,0 +1,74 @@
+<div class="main">
+
+  <div class="glass"> 
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 dashboard ">
+          
+          <div class="user">
+            <img  src="../assets/images/Office_Staff-512.webp" alt="">
+            <h6>Manche Thirumalesh</h6>
+          </div>
+
+          <div class="links">
+           
+            <ul>
+              <div>
+                <li class="link" routerLinkActive="active" routerLink="/about"><a ><span><i class="fa fa-user"></i></span>About Me</a></li>
+              </div>
+
+              <div> 
+                <li class="link" routerLinkActive="active" routerLink="/myworks"><a><span><i class="fa fa-briefcase"></i></span>My Works</a></li>
+              </div>
+
+              <div>
+               <li class="link" routerLinkActive="active" routerLink="contact"><a> <span><i class="fa fa-address-book-o"></i></span>Contact</a></li>
+              </div>
+            </ul>
+            
+          </div>
+
+          <!-- <div class="follow">
+            <h6>Follow</h6>
+            <div class="fti d-flex">
+              <div class="img " >
+                  <img  src="../assets/images/Facebook.svg" alt="" srcset="">
+              </div>
+              <div class="img "> 
+                  <img src="../assets/images/Instagram.svg" alt="">
+              </div>
+              <div class="img">
+                  <img  src="../assets/images/Twitter.svg" alt="">
+              </div>
+
+          </div>
+          </div> -->
+
+
+          <div class="theme-set">
+
+            <p>Choose Theme </p>
+            <div class="theme">
+              <div id="light-mode"  class="theme-dot"  routerLinkActive="themes"></div>
+              <div id="blue-mode"   routerLinkActive="themes" class="theme-dot"></div>
+              <div id="green-mode"  routerLinkActive="themes" class="theme-dot"></div>
+              <div id="purple-mode" routerLinkActive="themes" class="theme-dot"></div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-lg-9 details">
+         <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+</div>
+
+
+
+

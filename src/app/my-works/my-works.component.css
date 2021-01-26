@@ -1,0 +1,86 @@
+.project{
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #003366;
+    margin-top: 25px;
+
+}
+
+.work{
+    padding: 15px 0;
+}
+
+
+.post-area{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.card{
+    width: 230px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgba(174, 176, 179, 0.356);
+    box-shadow: 0px 0px 4px 2px rgba(111, 121, 121, 0.73);
+    /* -webkit-box-shadow: 0px 0px 4px 2px rgba(107, 124, 124, 0.73);
+    -moz-box-shadow: 0px 0px 4px 2px rgba(68, 78, 78, 0.73); */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.card-title{
+    font-weight: 700;
+    color: #003366;
+}
+
+.card-text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #003366;
+}
+
+.card a{
+    text-decoration: none;
+    width: fit-content;
+    border-bottom: 1px solid  transparent;
+}
+
+.card a:hover{
+    color: #0d6efd;
+    border-bottom: 1px solid #0d6efd;
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.follow h6{
+    color:  #003366;
+
+}
+
+.fti{
+    width: 120px;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+
+.fti .img{
+    width: 30px;
+    height: 30px;
+    background-color: #003366;
+    border-radius: 100%;
+    text-align: center
+} 
+
+.fti .img:hover{
+    cursor: pointer;
+}

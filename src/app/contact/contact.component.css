@@ -1,0 +1,45 @@
+.name{
+    display: flex;
+    flex-direction: column;
+}
+
+.name input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    
+   
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.email input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+
+   
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.text textarea{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+   
+}
