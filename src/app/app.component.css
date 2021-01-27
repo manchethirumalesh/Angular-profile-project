@@ -12,12 +12,6 @@
     height: 550px;
     border-radius: 20px;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.308),rgba(255, 255, 255, 0.5)); 
-    /* border-top: 1px solid  rgba(255, 255, 255, 0.404);
-    border-left: 1px solid  rgba(255, 255, 255, 0.404);
-    border-right: 1px solid  rgba(255, 255, 255, 0.404);
-    border-bottom: 1px solid  rgba(255, 255, 255, 0.404);
-    backdrop-filter: blur(100px); */
-    /* box-shadow: 0 0 3px 1px white; */
 }
 
 .dashboard{
